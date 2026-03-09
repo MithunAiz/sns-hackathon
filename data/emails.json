@@ -1,0 +1,50 @@
+[
+  {
+    "subject": "Event Logistics Discussion",
+    "sender": "sarah@company.com",
+    "date": "2026-03-01",
+    "body": "We finalized GreenLeaf Catering for the annual event. Expecting around 200 guests. Venue confirmed as City Convention Hall. The event date is March 15, 2026."
+  },
+  {
+    "subject": "Transport Arrangements",
+    "sender": "logistics@company.com",
+    "date": "2026-03-02",
+    "body": "The logistics team will arrange 3 shuttle buses for guest transportation from Bangalore Airport to City Convention Hall. Pickup times: 8:00 AM, 10:00 AM, and 12:00 PM."
+  },
+  {
+    "subject": "Guest Speaker Confirmation",
+    "sender": "events@company.com",
+    "date": "2026-03-03",
+    "body": "John Matthews from TechFuture has confirmed as keynote speaker for the event. His topic will be 'The Future of AI in Enterprise'. He will speak at 2:00 PM on March 15."
+  },
+  {
+    "subject": "Budget Approval",
+    "sender": "finance@company.com",
+    "date": "2026-03-04",
+    "body": "The total event budget of Rs. 5,00,000 has been approved by the CFO. Breakdown: Venue rental Rs. 1,50,000, Catering Rs. 2,00,000, Decorations Rs. 50,000, Marketing Rs. 50,000, Miscellaneous Rs. 50,000."
+  },
+  {
+    "subject": "Sponsorship Update",
+    "sender": "partnerships@company.com",
+    "date": "2026-03-05",
+    "body": "We have 2 confirmed sponsors: NextGen AI (Gold Sponsor - Rs. 2,00,000) and AlphaCorp (Silver Sponsor - Rs. 1,00,000). Both will have exhibition booths at the event."
+  },
+  {
+    "subject": "Security and Protocol",
+    "sender": "security@company.com",
+    "date": "2026-03-06",
+    "body": "Security arrangements finalized. We will have 10 security personnel, 2 CCTV monitoring stations, and badge-based entry. VIP guests will have separate entrance via Gate B."
+  },
+  {
+    "subject": "Photography and Media Coverage",
+    "sender": "marketing@company.com",
+    "date": "2026-03-07",
+    "body": "PixelPerfect Studios has been hired for event photography and videography. A live stream will be set up on YouTube for remote attendees. Social media coverage will be handled by marketing intern Ankit."
+  },
+  {
+    "subject": "Dress Code Announcement",
+    "sender": "hr@company.com",
+    "date": "2026-03-08",
+    "body": "The dress code for the annual event is Business Casual. Team leads should inform their respective teams by March 10."
+  }
+]

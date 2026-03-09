@@ -1,0 +1,19 @@
+task,owner,status,deadline,priority
+Book venue,Mike,completed,2026-03-01,high
+Finalize catering vendor,Sara,completed,2026-03-03,high
+Send guest invitations,Priya,completed,2026-03-06,high
+Coordinate security vendor,Rahul,completed,2026-03-07,high
+Finalize catering menu,Sara,in-progress,2026-03-08,medium
+Set up registration portal,David,in-progress,2026-03-09,high
+Confirm keynote speaker,John,completed,2026-03-03,high
+Arrange shuttle buses,Priya,completed,2026-03-05,medium
+Hire photography studio,Sara,completed,2026-03-04,medium
+Set up YouTube live stream,David,pending,2026-03-12,medium
+Prepare welcome kits,Ankit,pending,2026-03-13,low
+Print attendee badges,Rahul,pending,2026-03-12,high
+Set up exhibition booths,Mike,pending,2026-03-14,medium
+Final venue walkthrough,John,pending,2026-03-14,high
+Social media promotions,Ankit,in-progress,2026-03-05,medium
+Confirm parking arrangements,Rahul,completed,2026-03-02,low
+Prepare emergency protocol,Rahul,completed,2026-03-06,high
+Budget approval from CFO,Sara,completed,2026-03-04,high

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context-Aware Executive Personal Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        sidebar: { DEFAULT: '#171717', hover: '#2a2a2a', border: '#333' },
+                        chat: { DEFAULT: '#212121', user: '#2f2f2f', bot: '#212121' },
+                        accent: { DEFAULT: '#10a37f', hover: '#1a7f64', light: '#19c37d' },
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="h-full bg-chat font-sans text-gray-100 overflow-hidden">
+    <div class="flex h-full w-full">
+
+        <!-- ============ SIDEBAR ============ -->
+        <aside id="sidebar"
+            class="sidebar-panel w-[260px] bg-sidebar flex flex-col border-r border-sidebar-border transition-transform duration-300 ease-in-out z-50 flex-shrink-0">
+            <!-- New Chat Button -->
+            <div class="p-3">
+                <button id="new-chat-btn"
+                    class="w-full flex items-center gap-3 rounded-lg border border-sidebar-border px-3 py-3 text-sm text-gray-200 hover:bg-sidebar-hover transition-colors duration-200">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                    New Chat
+                </button>
+            </div>
+
+            <!-- Chat History -->
+            <div id="history-list" class="flex-1 overflow-y-auto px-3 space-y-1 scrollbar-thin">
+                <!-- Injected by JS -->
+            </div>
+
+            <!-- Footer -->
+            <div class="p-3 border-t border-sidebar-border">
+                <button id="reset-btn"
+                    class="w-full flex items-center gap-3 rounded-lg px-3 py-3 text-sm text-gray-400 hover:bg-sidebar-hover hover:text-gray-200 transition-colors duration-200">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <polyline points="3 6 5 6 21 6" />
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                    </svg>
+                    Delete All History
+                </button>
+            </div>
+        </aside>
+
+        <!-- ============ MAIN CONTENT ============ -->
+        <main class="flex-1 flex flex-col h-full relative min-w-0">
+
+            <!-- Mobile Header -->
+            <header class="md:hidden flex items-center gap-3 px-4 py-3 border-b border-sidebar-border bg-chat">
+                <button id="toggle-sidebar" class="text-gray-300 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+                <span class="font-medium text-sm tracking-wide">Executive Assistant</span>
+            </header>
+
+            <!-- Chat Container (scrollable) -->
+            <div id="chat-scroll" class="flex-1 overflow-y-auto scroll-smooth">
+                <div id="chat-box" class="max-w-3xl mx-auto w-full px-4 py-6 space-y-1 pb-44">
+                    <!-- Messages injected by JS -->
+                </div>
+            </div>
+
+            <!-- Input Bar (anchored bottom) -->
+            <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-chat via-chat to-transparent pt-8 pb-5 px-4">
+                <form id="chat-form" class="max-w-3xl mx-auto w-full">
+                    <div
+                        class="relative flex items-end bg-[#2f2f2f] rounded-2xl border border-[#444] shadow-lg focus-within:border-gray-500 transition-colors duration-200">
+                        <input type="text" id="user-input" placeholder="Message Executive Assistant..."
+                            autocomplete="off" required
+                            class="flex-1 bg-transparent text-gray-100 placeholder-gray-500 px-5 py-4 pr-14 text-sm outline-none rounded-2xl">
+                        <button type="submit" id="send-btn"
+                            class="absolute right-2 bottom-2 w-9 h-9 flex items-center justify-center rounded-lg bg-accent hover:bg-accent-hover disabled:bg-[#444] disabled:text-gray-600 text-white transition-all duration-200">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5"
+                                viewBox="0 0 24 24">
+                                <path d="M22 2L11 13" />
+                                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <p class="text-center text-xs text-gray-500 mt-3 tracking-wide">AI can make mistakes. Consider checking
+                    important information.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Overlay for mobile sidebar -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"
+        onclick="document.getElementById('sidebar').classList.remove('open');this.classList.add('hidden')"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
