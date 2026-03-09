@@ -1,0 +1,4 @@
+Name,Email,VIP,Status
+Alice Smith,alice@example.com,Yes,Confirmed
+Bob Jones,bob@example.com,No,Pending
+Charlie Brown,charlie@example.com,Yes,Declined

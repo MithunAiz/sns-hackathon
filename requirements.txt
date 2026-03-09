@@ -1,0 +1,5 @@
+Flask
+pandas
+pypdf
+python-dotenv
+# google-generativeai  # LLM dependency commented out for now

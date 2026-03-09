@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "sender": "boss@example.com",
+        "subject": "Event logistics",
+        "body": "Let's make sure the caterer brings vegetarian options.",
+        "date": "2023-10-01"
+    }
+]
