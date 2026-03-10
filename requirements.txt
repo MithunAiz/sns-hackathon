@@ -1,5 +1,9 @@
 Flask
+flask-cors
 pandas
 pypdf
 python-dotenv
-# google-generativeai  # LLM dependency commented out for now
+fpdf2
+# Uncomment ONE of the following to enable LLM-generated answers:
+# google-generativeai   # for Gemini  → set GEMINI_API_KEY in .env
+# openai                # for OpenAI   → set OPENAI_API_KEY in .env

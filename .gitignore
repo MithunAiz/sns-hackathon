@@ -1,0 +1,14 @@
+# Environment variables — NEVER commit this file
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# VS Code
+.vscode/

@@ -9,18 +9,28 @@ from tools.notes_search import search_notes
 
 def select_tool(question: str) -> str:
     """
-    Uses logic (or an LLM) to decide which tool is best suited for the question.
+    Uses keyword matching to decide which tool is best suited for the question.
+    Checks against expanded keyword sets for each data source.
     """
-    # STUB: Simplistic keyword matching for mock purposes
     q_lower = question.lower()
-    if 'email' in q_lower:
+
+    # Email data source — emails, messages, senders, inbox keywords
+    EMAIL_KEYWORDS = {'email', 'mail', 'inbox', 'message', 'sender', 'received', 'caterer', 'logistics'}
+    if any(kw in q_lower for kw in EMAIL_KEYWORDS):
         return 'email_search'
-    elif 'pdf' in q_lower or 'plan' in q_lower:
+
+    # PDF data source — event plan, venue, schedule, budget, logistics document
+    PDF_KEYWORDS = {'pdf', 'plan', 'venue', 'schedule', 'budget', 'conference', 'keynote', 'parking'}
+    if any(kw in q_lower for kw in PDF_KEYWORDS):
         return 'pdf_search'
-    elif 'csv' in q_lower or 'guest' in q_lower:
+
+    # CSV data source — guest list, attendees, RSVP, confirmed, VIP
+    CSV_KEYWORDS = {'csv', 'guest', 'attending', 'attendee', 'rsvp', 'confirmed', 'vip', 'invited', 'who is'}
+    if any(kw in q_lower for kw in CSV_KEYWORDS):
         return 'csv_search'
-    else:
-        return 'notes_search'
+
+    # Default: meeting notes
+    return 'notes_search'
 
 def call_tool(tool_name: str, query: str) -> str:
     """
