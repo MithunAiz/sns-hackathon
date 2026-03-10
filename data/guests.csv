@@ -1,4 +1,11 @@
-Name,Email,VIP,Status
-Alice Smith,alice@example.com,Yes,Confirmed
-Bob Jones,bob@example.com,No,Pending
-Charlie Brown,charlie@example.com,Yes,Declined
+Name,Role,Organization,Email,RSVP_Status,Dietary_Preference
+Dr. Ananya Krishnan,Keynote Speaker,Indian Institute of Technology,ananya.k@iit.ac.in,Confirmed,Vegetarian
+James Rutherford,Panelist,TechFuture Labs,james.r@techfuture.io,Confirmed,Non-Vegetarian
+Priya Subramaniam,Panelist,AI Ventures,priya.s@aiventures.com,Confirmed,Vegan
+Karan Mehta,Sponsor Representative,TechCorp,karan.m@techcorp.in,Confirmed,Non-Vegetarian
+Dr. Leila Hassan,Guest Speaker,Oxford AI Research,leila.h@oxford.ac.uk,Confirmed,Vegan
+Sanjay Pillai,Workshop Facilitator,ProductMind Co.,sanjay.p@productmind.co,Confirmed,Vegetarian
+Nadia Fernandez,VIP Guest,GreenFuture NGO,nadia.f@greenfuture.org,Confirmed,Vegan
+Arjun Bose,Attendee,Startup Hub Bangalore,arjun.b@startuphub.in,Confirmed,Non-Vegetarian
+Meenakshi Rao,Attendee,National Design Institute,meena.r@ndi.gov.in,Pending,Vegetarian
+Thomas Ward,Attendee,Bloomberg Tech,thomas.w@bloomberg.com,Confirmed,Non-Vegetarian

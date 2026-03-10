@@ -1,6 +1,116 @@
-Meeting Date: 2023-10-02
-Attendees: Alice, Bob, Charlie
-Notes:
-- The Q3 review will be held next Tuesday.
-- We need to confirm the venue booking by Friday.
-- Budget constraints mean we can't afford the live band requested.
+====================================================
+MEETING NOTES - Annual Tech Summit 2026
+Event Planning Committee | Weekly Sync
+====================================================
+
+DATE: February 18, 2026
+TIME: 3:00 PM - 5:00 PM
+LOCATION: Conference Room B, EventCo HQ
+FACILITATOR: Sarah Thompson (Event Lead)
+ATTENDEES: Sarah Thompson, Raj Verma (Logistics), Priya Nair (Marketing), Dev Anand (Finance), Meera Patel (Guest Relations)
+
+----------------------------------------------------
+AGENDA ITEM 1: VENUE CONFIRMATION
+----------------------------------------------------
+DECISION: City Convention Hall has been officially confirmed as the venue for Annual Tech Summit 2026.
+- Date of event: March 15, 2026
+- Venue capacity: 250 seated guests
+- Booking deposit of $2,000 paid on February 15
+- Full payment of $5,000 due by March 5
+- Venue contact: Mr. Prakash (+91-9988776655)
+- Setup access from 7:00 AM on event day
+- All AV equipment included in the venue package
+
+ACTION ITEM: Dev Anand to process remaining venue payment by March 3.
+
+----------------------------------------------------
+AGENDA ITEM 2: CATERING VENDOR SELECTION
+----------------------------------------------------
+DECISION: GreenLeaf Catering selected after reviewing three vendor proposals.
+- Cost: $42 per guest for full buffet
+- Expected guest count: 200
+- Total catering budget approved: $8,400
+- Menu: Vegetarian, vegan, and non-vegetarian options
+- GreenLeaf to set up by 11:30 AM, cleanup by 6:30 PM
+- Tea/coffee break at 11:00 AM and 3:30 PM
+- Dietary preferences to be collected via registration form
+
+REJECTED VENDORS: FreshBites (too expensive at $58/head), QuickServe (no vegan options)
+ACTION ITEM: Meera Patel to compile dietary preference data from registrations by March 1 and send to Sarah.
+
+----------------------------------------------------
+AGENDA ITEM 3: EXPECTED GUEST COUNT AND REGISTRATION
+----------------------------------------------------
+- Current registrations: 143 confirmed as of February 18
+- Target: 200 attendees
+- Registration closes: March 12, 2026
+- Breakdown: 3 keynote speakers, 10 panelists, 15 sponsors/VIPs, 172 general attendees
+- Guest badges and welcome kits to be prepared for 220 (buffer of 20)
+- Name badge printing vendor: PrintFast (order by March 8)
+
+ACTION ITEM: Meera Patel to finalize guest list and share with logistics team by March 13.
+
+----------------------------------------------------
+AGENDA ITEM 4: LOGISTICS AND RESPONSIBILITIES
+----------------------------------------------------
+TRANSPORT:
+- Shuttle buses: 3 buses from Central Metro Station, every 30 min from 8:30 AM
+- Valet parking for VIPs at Gate 2
+- Standard parking: Lot B (free), Lot C ($5 flat)
+- Bus vendor: CityRide Transport (confirmed)
+
+SETUP CREW:
+- AV team arrives 9:00 AM
+- Registration desk team: 4 volunteers, arrives 8:30 AM
+- Stage management: Raj Verma leads
+- Catering coordination: Sarah Thompson liaises with GreenLeaf
+
+EMERGENCY:
+- First aid station at registration desk
+- Nearest hospital: Apollo Clinic, 1.2 km from venue
+- Emergency coordinator: Dev Anand
+
+ACTION ITEM: Raj Verma to brief all volunteers by March 10.
+
+----------------------------------------------------
+AGENDA ITEM 5: MARKETING STRATEGY
+----------------------------------------------------
+- Social media campaign launches March 1 (LinkedIn, Twitter)
+- Email newsletter to 5,000 subscribers on March 3
+- Press release to TechCrunch India, YourStory, The Hindu BusinessLine
+- Event hashtag: #TechSummit2026
+- Sponsor logos on banners, website, and slide deck
+- Registration link: www.techsummit2026.in
+- Priya Nair to coordinate all media partnerships
+
+SPONSORS CONFIRMED:
+- TechCorp (Gold Sponsor) - $10,000
+- AI Ventures (Silver Sponsor) - $5,000
+- GreenFuture NGO (Community Partner) - in-kind
+
+ACTION ITEM: Priya Nair to send sponsorship recognition guidelines to all sponsors by February 25.
+
+----------------------------------------------------
+AGENDA ITEM 6: BUDGET OVERVIEW
+----------------------------------------------------
+Total approved budget: $25,000
+
+Breakdown:
+- Venue:             $5,000
+- Catering:          $8,400
+- AV & Tech:         $2,500
+- Marketing & Ads:   $3,000
+- Speaker Travel:    $2,000
+- Printing & Kits:   $1,500
+- Transport:         $1,500
+- Contingency:       $1,100
+
+TOTAL ALLOCATED:    $25,000
+
+Dev Anand to track all invoices and ensure submissions by March 20.
+
+----------------------------------------------------
+NEXT MEETING: March 8, 2026 at 3:00 PM - Final Pre-Event Check
+====================================================
+END OF MEETING NOTES
+====================================================

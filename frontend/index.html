@@ -1,23 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Executive Agent Chat</title>
-    <link rel="stylesheet" href="/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Executive Agent</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- DEVELOPER 1: Build chat UI here -->
-    <div id="chat-container">
-        <h1>Context-Aware Executive Agent</h1>
-        <div id="chat-history">
-            <!-- Chat history will appear here -->
+
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">⚡</div>
+        <h1>ExecAgent</h1>
+      </div>
+      <p class="sidebar-sub">Context-Aware Personal Assistant</p>
+      <div class="sources-panel">
+        <h3>Data Sources</h3>
+        <div class="source-item" id="src-email">
+          <span class="dot"></span> Emails
         </div>
-        <div id="chat-input-area">
-            <input type="text" id="user-input" placeholder="Ask a question (e.g., 'What did we decide about event logistics?')">
-            <button id="send-btn" onclick="sendMessage()">Send</button>
+        <div class="source-item" id="src-notes">
+          <span class="dot"></span> Meeting Notes
         </div>
-    </div>
-    <script src="/script.js"></script>
+        <div class="source-item" id="src-csv">
+          <span class="dot"></span> Guest List
+        </div>
+        <div class="source-item" id="src-pdf">
+          <span class="dot"></span> Event Plan PDF
+        </div>
+      </div>
+      <div class="suggestions">
+        <h3>Try asking</h3>
+        <div class="chip" onclick="fillQuery('What did we decide about catering?')">🍽️ Catering decisions</div>
+        <div class="chip" onclick="fillQuery('Who is the keynote speaker?')">🎤 Keynote speaker</div>
+        <div class="chip" onclick="fillQuery('How many guests confirmed?')">👥 Guest count</div>
+        <div class="chip" onclick="fillQuery('What is the transport plan?')">🚌 Transport plan</div>
+        <div class="chip" onclick="fillQuery('What is the total budget?')">💰 Budget overview</div>
+      </div>
+      <button class="reset-btn" onclick="resetChat()">🔄 New Conversation</button>
+    </aside>
+
+    <!-- Main Chat -->
+    <main class="chat-area">
+      <div class="chat-header">
+        <h2>Personal Executive Agent</h2>
+        <span class="status-badge">● Live</span>
+      </div>
+
+      <div class="messages" id="messages">
+        <div class="message agent-message">
+          <div class="avatar">🤖</div>
+          <div class="bubble">
+            Hello! I'm your Personal Executive Agent. I can search across your
+            <strong>emails, meeting notes, guest list, and event documents</strong>
+            to find any information instantly. What would you like to know?
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <div class="input-row">
+          <input
+            type="text"
+            id="queryInput"
+            placeholder="Ask anything about the event..."
+            onkeydown="if(event.key==='Enter') sendQuery()"
+          />
+          <button onclick="sendQuery()" id="sendBtn">Send ➤</button>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

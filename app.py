@@ -1,15 +1,24 @@
-from flask import Flask, request, jsonify, render_template
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
-# CREATE FLASK APP
-# Developer 2 / Developer 1 Integration
-app = Flask(__name__, template_folder='frontend', static_folder='frontend')
+from flask import Flask, send_from_directory
 
-# REGISTER ROUTES
-# To be implemented by Developer 2 in backend/routes.py
+app = Flask(__name__, static_folder='frontend')
+
+# Serve frontend
+@app.route('/')
+def index():
+    return send_from_directory('frontend', 'index.html')
+
+@app.route('/<path:path>')
+def static_files(path):
+    return send_from_directory('frontend', path)
+
+# Register backend routes
 from backend.routes import register_routes
 register_routes(app)
 
-# RUN SERVER
 if __name__ == '__main__':
     print("Starting Context-Aware Personal Executive Agent...")
     app.run(debug=True, port=5000)

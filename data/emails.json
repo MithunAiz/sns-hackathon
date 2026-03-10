@@ -1,9 +1,42 @@
 [
-    {
-        "id": 1,
-        "sender": "boss@example.com",
-        "subject": "Event logistics",
-        "body": "Let's make sure the caterer brings vegetarian options.",
-        "date": "2023-10-01"
-    }
+  {
+    "id": "email_001",
+    "subject": "Catering Vendor Finalized - GreenLeaf Confirmed",
+    "sender": "sarah.thompson@eventco.com",
+    "to": "team@eventco.com",
+    "date": "2026-02-20",
+    "body": "Hi team, I am pleased to confirm that GreenLeaf Catering has been selected as our official vendor for the Annual Tech Summit 2026. After reviewing three proposals, GreenLeaf offered the best value at $42 per head for a full buffet spread. Menu includes vegetarian, vegan, and non-vegetarian options. They will handle setup by 11:30 AM and clear by 6:30 PM. Final headcount of 200 guests has been shared with them. Please ensure dietary preference data is sent to me by March 1 so I can forward it to GreenLeaf. Contact: chef.raj@greenleafcatering.com"
+  },
+  {
+    "id": "email_002",
+    "subject": "Transport Arrangements - Shuttle & Parking Plan",
+    "sender": "logistics@eventco.com",
+    "to": "team@eventco.com",
+    "date": "2026-02-22",
+    "body": "Team, Here is the confirmed transport plan for the event on March 15. Shuttle buses will run from Central Metro Station every 30 minutes starting 8:30 AM. Last return shuttle departs venue at 7:00 PM. We have arranged 3 buses with a capacity of 45 seats each. Valet parking will be available for VIP guests at Gate 2 of City Convention Hall. Standard parking is available in Lot B (free) and Lot C (paid, $5 flat rate). Carpooling is encouraged - a shared spreadsheet link will be circulated. Please brief all speakers and VIPs about the valet arrangement. Driver contacts will be shared 48 hours before the event."
+  },
+  {
+    "id": "email_003",
+    "subject": "Keynote Speaker Confirmed - Dr. Ananya Krishnan",
+    "sender": "speakers@eventco.com",
+    "to": "team@eventco.com",
+    "date": "2026-02-25",
+    "body": "Great news! Dr. Ananya Krishnan has formally accepted our invitation to deliver the keynote address at Annual Tech Summit 2026. Her topic will be: 'Responsible AI - Building Systems That Serve Humanity'. Duration: 45 minutes followed by a 15-minute Q&A. Dr. Krishnan will arrive the evening before (March 14) and we have booked her at the Marriott City Center. Her travel reimbursement form must be submitted to finance by March 20. She has also agreed to a press interaction at 9:30 AM before the event begins. Please ensure green room availability and a dedicated AV check slot at 9:00 AM. Her presentation slides will be shared by March 10."
+  },
+  {
+    "id": "email_004",
+    "subject": "Marketing & Promotion - Campaign Plan Approved",
+    "sender": "marketing@eventco.com",
+    "to": "team@eventco.com",
+    "date": "2026-02-27",
+    "body": "Hi all, The marketing campaign for Annual Tech Summit 2026 has been approved by the leadership team. Here is a summary of the promotional strategy: Social Media - LinkedIn and Twitter campaigns begin March 1. Paid ads targeting tech professionals in Bangalore, Mumbai, and Delhi. Email newsletter blast to 5,000 subscribers on March 3. Press release to be sent to TechCrunch India, YourStory, and The Hindu BusinessLine. Event hashtag: #TechSummit2026. Sponsorship banners for TechCorp and AI Ventures will be placed at the entrance and on stage. Event website is live at www.techsummit2026.in. Registration closes March 12. Please share the event link in your personal networks as well."
+  },
+  {
+    "id": "email_005",
+    "subject": "Venue Walkthrough Completed - City Convention Hall",
+    "sender": "sarah.thompson@eventco.com",
+    "to": "team@eventco.com",
+    "date": "2026-03-01",
+    "body": "Team, I completed the venue walkthrough at City Convention Hall today. Key findings: Main auditorium capacity is 250 seated. Stage dimensions are 40ft x 20ft, suitable for panel of 6. Green room available adjacent to the stage with private restroom. AV room is well-equipped - 4K projector, surround sound, and wireless mic system for 8 speakers. Registration desk to be set up at the main lobby entrance. Breakout rooms 1 and 2 will be used for workshops in the afternoon session. Catering area is on the ground floor near the east wing. Emergency exits are clearly marked. The venue manager contact is Mr. Prakash: +91-9988776655. Setup crew can access the hall from 7:00 AM on March 15."
+  }
 ]
